@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58715cabd5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/download (3).jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Java Full Stack Developer</p>
+                <h1>Hi, I'm <span>Dishant</span> Patil from Jalgaon</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dishant.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class=" sub-title">About Me</h1>
+                    <p>I am a Full Stack Developer with hands-on experience in various projects. I have strong
+                        problem-solving skills and can tackle complex challenges efficiently. Additionally, I possess
+                        leadership skills, allowing me to guide and manage teams effectively. My expertise covers both
+                        frontend and backend development, making me a well-rounded developer.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>Designing Responsive and Intresting Interface</li>
+                            <li><span>Backend Development</span><br>Building the backend</li>
+                            <li><span>Problem Solver</span><br>Sloving Complex DSA Problems</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Oasisi Infobyte</span><br>Web Development Intern</li>
+                            <li><span>Prodigy Infotech</span><br>web Development Intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E- Electronic and Telecommunication Engineering </span><br>At SSBT College of
+                                Engineering and Technology</li>
+                            <li><span>Higher Secondary Education (Class XII)</span><br>From R. C. Patel Junior College
+                                of Arts and Science </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class=" sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Design</h2>
+                    <p>Expert in Front-End Development with proficiency in HTML, CSS, JavaScript, and the React.js
+                        framework. Skilled in building responsive, interactive, and user-friendly web applications while
+                        ensuring seamless user experiences. Strong understanding of modern design principles and
+                        performance optimization to create visually appealing and high-performance interfaces.</p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Backend Build</h2>
+                    <p>Expert in Back-End Development with a strong command of JSP, Servlets, Spring Boot, and
+                        Hibernate. Skilled in building robust, scalable, and secure server-side applications while
+                        ensuring seamless integration with front-end systems. Proficient in database management and
+                        optimizing application performance..</p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Problem Solver</h2>
+                    <p>Skilled in problem-solving, with a strong ability to analyze challenges and develop effective
+                        solutions. Adept at logical thinking, debugging, and optimizing code to enhance performance and
+                        efficiency.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------- Projects---------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/10306566.jpg" alt="">
+                    <div class="layer">
+                        <h3>Electircity Billing System</h3>
+                        <P>Developed an Employee Management System application using Java Swing and MySQL database to
+                            manage records for 10,000+ employees efficiently. Designed a user-friendly interface with 5+
+                            interactive modules, including employee registration, salary management, attendance
+                            tracking, and performance evaluation. Implemented CRUD operations with optimized queries,
+                            reducing data retrieval time by 40%. Ensured secure data handling with role-based access
+                            control and encryption techniques.</P>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/DMA.jpg" alt="">
+                    <div class="layer">
+                        <h3>DMA For Farmers </h3>
+                        <P>Developing a Direct Market Access platform for farmers, with a fully designed front-end using
+                            HTML, CSS, JavaScript, and React.js. The platform aims to connect 100,000+ farmers with
+                            50,000+ buyers, reducing costs by 30% and ensuring fair pricing. Designed with a responsive
+                            UI, 10+ interactive dashboards, and real-time updates for seamless navigation. Features
+                            include 24/7 access, multi-language support for 15+ regional languages, and an advanced
+                            search system handling 1M+ product listings. Back-end development is in progress to
+                            implement secure transactions, AI-driven price predictions, user authentication, and a
+                            scalable database processing 10M+ records.</P>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------------------------Cantact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>dishantpatil1010@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7666075466</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dishant-patil-60226b265/"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/Dishant1010"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/___dishu_boy___/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Dishant_Resume__3_.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Dishant Made with <i class="fa-solid fa-heart"></i> my Own</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzKDAcOOVINtdl9VtlawN1iTox7-RPtJO4-xBBVps6emjmXnslfuBxP8CRtLmFvCswLPQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
